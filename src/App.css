@@ -1,0 +1,25 @@
+div.main-container {
+    height: 100vh;
+    background: url("assets/img/fondoP.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.main-container2 {
+    height: 100vh;
+    background-image: url("./assets/img/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+div.main-container3 {
+    height: 100vh;
+    background-image: url("./assets/img/fondo4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+

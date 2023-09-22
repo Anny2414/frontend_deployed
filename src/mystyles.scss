@@ -1,0 +1,45 @@
+@charset "utf-8";
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+// Set your brand colors
+$primary-color: #cf2924;
+$secondary-color: #FFEDB9;
+$beige-lighter: #EFF0EB;
+$gray-light: #DBDBDA;
+$custom-colors: ("error": ($primary-color, #fff));
+$input-focus-border-color: $gray-light;
+// Update Bulma's global variables
+$family-sans-serif: "Karla",
+sans-serif;
+$primary: $primary-color;
+$link: $secondary-color;
+$navbar-background-color: $primary-color;
+$navbar-item-color: $beige-lighter;
+$navbar-item-hover-color: $gray-light;
+$navbar-item-hover-background-color: $primary-color;
+$navbar-item-active-color: $secondary-color;
+$navbar-dropdown-background-color: $primary-color;
+$navbar-height: 4rem;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/table.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/elements/icon.sass";
+@import "../node_modules/bulma/sass/elements/other.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+@import "../node_modules/bulma/sass/form/_all.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/components/modal.sass";
+@import "../node_modules/bulma/sass/components/pagination.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/helpers/_all.sass";

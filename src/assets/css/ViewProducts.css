@@ -1,0 +1,178 @@
+.Seras {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+
+
+
+}
+.search{
+    position: fixed;
+}
+.input {
+    width: 30;
+}
+.image-product{
+    width: 150px;
+    height: 120px;
+}
+
+.carrito {
+    display: block;
+    text-decoration: none;
+    background: #cc2b2b;
+    color: #fff;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    transition: all 500ms ease;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/5087/5087847.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 9;
+}
+
+.carrito a:hover {
+    background: #fff;
+    color: #cc2b2b;
+    cursor: pointer;
+    ;
+}
+
+.carrito a {
+    margin-bottom: -15px;
+}
+
+.Vermas {
+    width: 100px;
+    color: black;
+}
+
+.producto {
+    width: 50%;
+    text-align: start;
+}
+
+.valor {
+    width: 100%;
+    text-align: end;
+}
+
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px ;
+}
+
+.card-pedido {
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+.card-venta {
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 30px;
+    text-align: start !important;
+}
+.card-venta2 {
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 10px;
+    text-align: start !important;
+}
+
+.none {
+    display: none;
+}
+
+.card-info {
+    background-color: hsl(0deg, 0%, 100%);
+    border-radius: 5px;
+}
+
+.img {
+    width: 160px;
+    border-radius: 5px;
+}
+
+.number {
+    width: 60px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    display: block;
+}
+
+.plus {
+    font-size: 100px;
+    font-style: normal;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+
+.hr {
+    background-color: hsl(0deg, 0%, 29%);
+    border-radius: 10px;
+    width: 100%;
+    height: 3px;
+}
+
+.producto {
+    width: 50%;
+    text-align: start;
+}
+
+.valor {
+    width: 100%;
+    text-align: end;
+}
+
+.mt-3>.button {
+    width: 90px;
+}
+
+.a {
+    width: 50px;
+}
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    height: 325px;
+  }
+
+.list-products {
+    height: 400px;
+    max-height: 400px !important; /* Altura máxima del contenedor */
+    overflow-y: auto !important; /* Habilitar el desplazamiento vertical */
+  }
+
+  .list-detail {
+    height: 1hv;
+    max-height: 100% !important; /* Altura máxima del contenedor */
+    overflow-y: auto !important; /* Habilitar el desplazamiento vertical */
+  }
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 73%;
+}
+  
