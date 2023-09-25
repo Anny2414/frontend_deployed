@@ -6,7 +6,7 @@ export function  PasswordResetForm () {
   const [message, setMessage] = useState('');
 
   const handlePasswordReset = () => {
-    axios.post('http://127.0.0.1:8000/yourburger/password-reset/', { email })
+    axios.post('https://yourburger.onrender.com/yourburger/enviar-correo/', { email })
       .then(response => {
         setMessage(response.data.success);
       })
