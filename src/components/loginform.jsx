@@ -200,7 +200,7 @@ const LoginForm = () => {
                       ¿ Perdiste tu contraseña  ?
                     </a>
                     <br />
-                    <a className="is-link contra" href="/registro">
+                    <a className="is-link contra" href="/Registrarse">
                       ¿Aún no tienes una cuenta?
                     </a>
                     <br />
