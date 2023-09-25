@@ -30,7 +30,7 @@ const RegisterForm = () => {
   const fetchRoles = async () => {
     try {
       const response = await axios.get(
-        "http://127.0.0.1:8000/yourburger/api/v1/roles/"
+        "https://yourburger.onrender.com/yourburger/api/v1/roles/"
       );
       setRoles(response.data);
     } catch (error) {
@@ -149,7 +149,7 @@ const RegisterForm = () => {
     try {
       // Enviar los datos del registro al servidor
       const response = await axios.post(
-        "http://127.0.0.1:8000/yourburger/register/",
+        "https://yourburger.onrender.com/yourburger/register/",
         userData
       );
       console.log(response.data);
