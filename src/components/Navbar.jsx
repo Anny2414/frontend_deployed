@@ -101,7 +101,7 @@ useEffect(() => {
     <nav className="navbar">
       <div className="navbar-brand">
         <div className="navbar-item">
-          <Link to="/">
+          <Link to="/home">
             <img src={Logo} width="110" />
           </Link>
         </div>

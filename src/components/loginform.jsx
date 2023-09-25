@@ -32,7 +32,7 @@ const LoginForm = () => {
       const response = await Login(username, password);
       if (response.status === 200) {
         setTimeout(() => {
-          location.replace("/home"); 
+          location.replace("/"); 
         }, 1200);
         
       }
