@@ -23,6 +23,7 @@ function App() {
       <Routes>
         {/* Ruta de inicio */}
         <Route path="/" element={token ? <Navigate to="/home" /> : <Navigate to="/login" />}/>
+        <Route path="/Registrarse" element={ <Navigate to="/registro" />}/>
         <Route path="/registro" element={<Registropage />} />
         <Route path="/login" element={<Loginpage />} />
         <Route path="/reset" element={<ResetPassword/>}/>
