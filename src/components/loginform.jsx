@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import Logo from "../assets/img/Logo.png";
 import "../assets/css/accesos.css";
 import { Login } from "../api/login.api";
@@ -196,9 +196,7 @@ const LoginForm = () => {
                     </button>
                     <br />
                     <br />
-                    <a className="is-link contra " href="/">
-                      ¿ Perdiste tu contraseña  ?
-                    </a>
+                    <Link to="/reset" className="is-link contra">Link a Reset</Link>
                     <br />
                     <a className="is-link contra" href="/">
                       ¿Aún no tienes una cuenta?
