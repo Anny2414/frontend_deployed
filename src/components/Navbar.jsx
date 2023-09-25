@@ -73,7 +73,7 @@ useEffect(() => {
     if (permisos) {
         console.log(pathname);
         permisos.forEach(element => {
-          if (base[element] == pathname || pathname == "/" || pathname == "/home" || pathname == "/profile" || pathname == "/orders" || pathname == "/sale") {
+          if (base[element] == pathname || pathname == "/" || pathname == "/profile" || pathname == "/orders" || pathname == "/sale") {
             bandera = false
           }
         })
@@ -101,7 +101,7 @@ useEffect(() => {
     <nav className="navbar">
       <div className="navbar-brand">
         <div className="navbar-item">
-          <Link to="/home">
+          <Link to="/">
             <img src={Logo} width="110" />
           </Link>
         </div>
