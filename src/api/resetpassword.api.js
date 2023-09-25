@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const apiUrl = "https://yourburger.onrender.com/yourburger/api/v1/yourburger";
+const apiUrl = "https://yourburger.onrender.com/yourburger";
 
 export const Reset = async (email) => {
   try {
