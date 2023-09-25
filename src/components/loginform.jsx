@@ -196,11 +196,11 @@ const LoginForm = () => {
                     </button>
                     <br />
                     <br />
-                    <a className="is-link contra " href="/reset">
+                    <a className="is-link contra " href="/">
                       ¿ Perdiste tu contraseña  ?
                     </a>
                     <br />
-                    <a className="is-link contra" href="/Registrarse">
+                    <a className="is-link contra" href="/">
                       ¿Aún no tienes una cuenta?
                     </a>
                     <br />
