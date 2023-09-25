@@ -73,7 +73,7 @@ useEffect(() => {
     if (permisos) {
         console.log(pathname);
         permisos.forEach(element => {
-          if (base[element] == pathname || pathname == "/" || pathname == "/home" || pathname == "/profile" || pathname == "/orders" || pathname == "/sale") {
+          if (base[element] == pathname  || pathname == "/home" || pathname == "/profile" || pathname == "/orders" || pathname == "/sale") {
             bandera = false
           }
         })
